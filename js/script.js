@@ -1,12 +1,12 @@
-/**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
+**
+ * @author Vinit Shahdeo <ypdana@gmail.com>
  */
 (function ($) {
     "use strict";
       $('.sakura-falling').sakura();
 })(jQuery);
 
-/**
+**
  *
  * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
  *
@@ -19,7 +19,7 @@
  *
  * Listen here: https://youtu.be/X0MDALpV29s
  *
- */
+ *
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
