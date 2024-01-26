@@ -1,12 +1,12 @@
-**
- * @author Vinit Shahdeo <ypdana@gmail.com>
+/**
+ * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
  */
 (function ($) {
     "use strict";
       $('.sakura-falling').sakura();
 })(jQuery);
 
-**
+/**
  *
  * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
  *
@@ -19,14 +19,14 @@
  *
  * Listen here: https://youtu.be/X0MDALpV29s
  *
- *
+ */
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 17, 2024 00:00:00").getTime();
+var countDownDate = new Date("Dec 7, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -93,4 +93,3 @@ console.log(
     `%cShaadi me zaroor aana!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
-
